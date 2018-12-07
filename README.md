@@ -1,6 +1,6 @@
-# みQ文字フォント
+﻿# みQ文字フォント
 
-[WEAR](https://wear.cannes.jp/)のメンバー、MiQさんが書いた文字を元に作成した手書きフォントの一種です。
+[WEAR](https://wear.cannes.jp/)のメンバー、[MiQ](https://twitter.com/MiQ_WEAR)さんが書いた文字を元に作成した手書きフォントの一種です。
 文字セットは現在、英数字ひらがなカタカナ(欠けあり)のみ。
 
 SVGでグリフを管理しOTFで出力しています。
