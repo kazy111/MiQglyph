@@ -84,9 +84,6 @@ Clear()
 Select(0u7a)
 Clear()
 
-//ぞ HIRAGANA LETTER ZO
-Select(0u305e)
-Clear()
 //ぺ HIRAGANA LETTER PE
 Select(0u307a)
 Clear()
