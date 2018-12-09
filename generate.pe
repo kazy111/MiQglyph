@@ -16,7 +16,7 @@ SetTTFName(0x411, 9, "MiQ from WEAR")
 SetTTFName(0x411, 13, "MIT License")
 SetTTFName(0x411, 19, "MiQてんばぶ！")
 
-SelectAll()
+SelectWorthOutputting()
 // set right side bearing
 SetRBearing(60)
 // fix outline direction
@@ -39,6 +39,9 @@ SetRBearing(400)
 // 。
 Select(0u3002)
 SetRBearing(400)
+// 「(full-width)
+Select(0u300c)
+SetRBearing(0)
 // ) (full-width)
 Select(0uff09)
 SetRBearing(400)
@@ -70,31 +73,6 @@ SetRBearing(100)
 // ル
 Select(0u30eb)
 SetRBearing(0)
-
-
-
-// * remove undefined letters
-// j	U+006A	LATIN SMALL LETTER J
-Select(0u6a)
-Clear()
-// q	U+0071	LATIN SMALL LETTER Q
-Select(0u71)
-Clear()
-// z	U+007A	LATIN SMALL LETTER Z
-Select(0u7a)
-Clear()
-
-//ぺ HIRAGANA LETTER PE
-Select(0u307a)
-Clear()
-
-//ゾ	U+30BE	KATAKANA LETTER ZO
-Select(0u30be)
-Clear()
-//ヌ	U+30CC	KATAKANA LETTER NU
-Select(0u30cc)
-Clear()
-
 
 
 // * save
