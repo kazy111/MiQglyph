@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1000"
+   height="1000"
+   viewBox="0 0 1000 1000"
+   version="1.1"
+   id="svg756"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="u0048.svg">
+  <defs
+     id="defs750" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="551.42857"
+     inkscape:cy="576.33663"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     units="px"
+     inkscape:window-width="1118"
+     inkscape:window-height="864"
+     inkscape:window-x="679"
+     inkscape:window-y="128"
+     inkscape:window-maximized="0"
+     showguides="true"
+     inkscape:guide-bbox="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid758" />
+    <sodipodi:guide
+       position="240,200"
+       orientation="0,1"
+       id="guide8"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata753">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-32.41664)"
+     style="display:inline">
+    <path
+       style="display:inline;fill:#000000;stroke-width:13.06564713"
+       d="m 380.32781,112.41664 c -10.32557,0.70879 -14.89924,12.18612 -15.70915,21.14412 -7.06718,51.28585 -6.72342,103.20589 -9.53675,154.78806 -1.69307,46.09282 -1.23645,92.72238 -11.47806,137.83039 -5.0762,18.88839 -17.68442,37.83787 -37.61774,42.95555 -25.63516,7.75546 -52.55913,0.0481 -76.90457,-8.4596 -20.20672,-6.75943 -44.17956,-5.15813 -61.09617,8.70559 -9.21305,7.71846 -17.65174,16.51809 -24.95639,26.04839 -4.6164,5.87902 -1.20797,14.64533 5.45816,17.13548 10.40086,3.9342 21.97502,1.23214 32.60558,3.22288 17.46952,1.69203 33.03384,11.3215 50.10035,15.47717 21.89303,6.9113 45.51162,11.37091 68.2362,5.8458 11.1422,-1.94488 22.15113,-4.80888 32.67952,-8.96957 -2.29354,54.66165 -9.51099,109.48684 -4.79271,164.22604 2.75125,23.33418 12.76511,46.79786 31.80997,61.38453 6.902,5.69678 14.30667,12.37042 23.49192,13.56075 9.20189,-0.12504 22.06423,-6.45698 22.79998,-14.89558 4.91076,-18.24139 0.5097,-40.6083 -8.91202,-56.58315 -4.28334,-20.2155 -2.22945,-41.17894 -2.78655,-61.71987 0.65167,-46.27042 1.34263,-92.23193 5.47651,-138.30401 6.54817,-11.48472 13.7861,-23.97009 15.86103,-37.03449 6.86402,-36.23536 4.8557,-73.33236 5.84781,-110.02948 0.35394,-50.01065 1.00464,-95.96562 0,-145.97276 -0.98927,-21.0732 -7.07454,-46.90672 -15.26659,-66.60513 -4.89653,-10.42797 -13.18284,-21.8711 -25.31033,-23.75111 z m -275.68645,41.5875 c -10.7576,0.78836 -16.01799,12.2383 -18.130131,21.49102 -13.354215,56.69196 -12.730241,116.77323 -15.256931,174.4312 -1.516117,56.96626 -6.885518,114.05994 -14.774144,170.52228 -6.372243,32.47124 -18.754281,65.2219 -12.205176,98.81077 1.584993,10.7646 13.548397,22.32608 25.560912,24.50803 12.126181,2.18876 21.58235,-8.11391 27.86421,-17.07709 20.37766,-32.54929 25.3469,-71.71805 28.1102,-109.24809 7.58727,-99.5039 15.61615,-200.9828 9.09003,-300.6079 -1.92258,-18.83475 -9.5627,-37.12341 -17.22948,-54.67309 -2.7826,-4.48397 -7.51897,-8.27844 -13.02949,-8.15713 z"
+       id="path734"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccccccccccccccccccccccccccccc" />
+  </g>
+</svg>
