@@ -1,13 +1,15 @@
 // * open
-Open("MiQglyph.svg", 1)
 
+_fontFileName = "MiQglyph.otf"
 
-// * global setting
-SetFontNames("MiQglyph-Regular", "MiQglyph", "MiQglyph", "", "", "0.1")
+New()
+
+// set font names
+SetFontNames("MiQglyph-Regular", "MiQglyph", "MiQglyph", "", "", "0.2")
 SetTTFName(0x409, 1, "MiQglyph")
 SetTTFName(0x409, 2, "Regular")
 SetTTFName(0x409, 4, "MiQglyph")
-// set japanese font name
+// set japanese font names
 SetTTFName(0x411, 0, "kazy111 <kazy@kazy111.info>")
 SetTTFName(0x411, 1, "みQ文字")
 SetTTFName(0x411, 2, "レギュラー")
@@ -16,6 +18,22 @@ SetTTFName(0x411, 9, "MiQ from WEAR")
 SetTTFName(0x411, 13, "MIT License")
 SetTTFName(0x411, 19, "MiQてんばぶ！")
 
+# .notdef
+Select(0u0000)
+SetGlyphName(".notdef")
+Import("glyphs/.notdef.svg", 0)
+
+// import fonts
+Reencode("unicode")
+Import("glyphs/digits/u*.svg", 0)
+Import("glyphs/symbols/u*.svg", 0)
+Import("glyphs/alphabets/u*.svg", 0)
+Import("glyphs/hiraganas/u*.svg", 0)
+Import("glyphs/katakanas/u*.svg", 0)
+Import("glyphs/kanjis/u*.svg", 0)
+
+
+// * global setting
 SelectWorthOutputting()
 // set right side bearing
 SetRBearing(60)
@@ -42,6 +60,9 @@ SetRBearing(400)
 // 「(full-width)
 Select(0u300c)
 SetRBearing(0)
+// ！(full-width)
+Select(0uff01)
+SetRBearing(100)
 // ) (full-width)
 Select(0uff09)
 SetRBearing(400)
@@ -75,8 +96,10 @@ Select(0u30eb)
 SetRBearing(0)
 
 
+
 // * save
-Generate("MiQglyph.otf")
+Save(_fontFileName:t:r + ".sfd")
+Generate(_fontFileName)
 
 Close()
 Quit()
