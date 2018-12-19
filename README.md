@@ -4,12 +4,12 @@
 文字セットは現在、英数字ひらがなカタカナと一部の記号・漢字のみ。
 
 SVGでグリフを管理しOTFで出力しています。
-一旦SVGフォントとして作成してから変換していますがうまくやれる方法を模索中……。
+FontForgeでグリフを読込んで出力したあと、縦書きグリフ等の調整をTTXでXMLに変換して行っています。
 
 ## ビルドに必要なもの
 - [FontForge](https://fontforge.github.io/)
-- [node](https://nodejs.org/ja/)
-- [ttx](https://github.com/fonttools/fonttools)
+- [TTX](https://github.com/fonttools/fonttools)
+- [node.js](https://nodejs.org/ja/)
 
 ## ビルド
 Windowsの場合、generate.bat を実行します。パスなどは適当に修正ください。
