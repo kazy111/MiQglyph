@@ -17,6 +17,8 @@ SetTTFName(0x411, 4, "みQ文字")
 SetTTFName(0x411, 9, "MiQ from WEAR")
 SetTTFName(0x411, 13, "MIT License")
 SetTTFName(0x411, 19, "MiQてんばぶ！")
+SetFontHasVerticalMetrics(1)
+SetPref('CoverageFormatsAllowed', 1)
 
 # .notdef
 Select(0u0000)
@@ -25,16 +27,18 @@ Import("glyphs/.notdef.svg", 0)
 
 // import fonts
 Reencode("unicode")
-Import("glyphs/digits/u*.svg", 0)
-Import("glyphs/symbols/u*.svg", 0)
-Import("glyphs/alphabets/u*.svg", 0)
 Import("glyphs/hiraganas/u*.svg", 0)
 Import("glyphs/katakanas/u*.svg", 0)
 Import("glyphs/kanjis/u*.svg", 0)
+Import("glyphs/digits/u*.svg", 0)
+Import("glyphs/symbols/u*.svg", 0)
+Import("glyphs/alphabets/u*.svg", 0)
 
 
 // * global setting
 SelectWorthOutputting()
+// set vertical width
+SetVWidth(1000, 0)
 // set right side bearing
 SetRBearing(60)
 // fix outline direction
