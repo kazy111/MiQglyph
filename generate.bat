@@ -1,8 +1,8 @@
-SET FF_EXE="C:\Program Files (x86)\FontForgeBuilds\bin\fontforge.exe"
+del MiQglyph.*
 
-%FF_EXE% -script scripts/generate.pe
-del MiQglyph.ttx
+ffpython scripts/generate.py
 ttx MiQglyph.otf
 del MiQglyph.otf
 node scripts/fix_tsb.js
 ttx MiQglyph.ttx
+del MiQglyph.ttx
