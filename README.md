@@ -9,10 +9,10 @@ FontForgeでグリフを読込んで出力したあと、縦書きグリフ等�
 ## ビルドに必要なもの
 - [FontForge](https://fontforge.github.io/)
 - [TTX](https://github.com/fonttools/fonttools)
--- Windowsの場合は[WinTTX](http://rtfreesoft.blogspot.jp/search/label/ttx)でも可
+    - Windowsの場合は[WinTTX](http://rtfreesoft.blogspot.jp/search/label/ttx)でも可
 - [Python](https://www.python.org/)
--- 2.x系3.x系どちらでも動く気がする
--- Windowsの場合はFontForge同梱のffpythonで可
+    - 2.x系3.x系どちらでも動く気がする
+    - Windowsの場合はFontForge同梱のffpythonで可
 
 ## ビルド
 Windowsの場合、generate.bat を実行します。FontForgeやTTXのexeにPATHが通っている前提です。
